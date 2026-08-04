@@ -1,0 +1,9 @@
+portal_url: https://portal.example.com
+agent_uuid: ""
+agent_token: ""
+heartbeat_interval: 5m0s
+inventory_interval: 24h0m0s
+log_level: info
+retry_interval: 1m0s
+queue_size: 100
+auto_update: false

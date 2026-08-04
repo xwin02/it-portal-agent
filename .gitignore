@@ -1,0 +1,39 @@
+# Build outputs and project-local Go caches used for reproducible local validation
+itportal-agent.exe
+dist/
+.gocache/
+.gomodcache/
+
+# Runtime data is created only under ProgramData on Windows hosts
+*.db
+*.log
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Build
+dist/
+build/
+bin/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# SQLite Runtime
+*.db
+*.sqlite
+*.sqlite3
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Config (runtime)
+config.yaml
