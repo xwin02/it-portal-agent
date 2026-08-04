@@ -1,9 +1,5 @@
 portal_url: https://portal.example.com
-agent_uuid: ""
-agent_token: ""
-heartbeat_interval: 5m0s
-inventory_interval: 24h0m0s
+enrollment_key: ""
+tls_validation: true
+proxy: ""
 log_level: info
-retry_interval: 1m0s
-queue_size: 100
-auto_update: false
