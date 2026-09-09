@@ -75,3 +75,7 @@ Run from an elevated PowerShell for Windows service changes:
 The default configuration is created at `C:\ProgramData\ITPortalAgent\config.yaml` on installation or first startup. Set the Portal URL and enrollment key before the first registration. `register`, `status`, `inventory`, and `reload-config` also work through `go run ./cmd/itportal-agent ...` without installing the Windows service.
 
 See [the installation guide](docs/installation.md), [architecture](docs/architecture.md), and [folder structure](docs/folder-structure.md).
+
+For the complete Indonesian operations runbook covering Portal backend/frontend startup,
+database setup, Enrollment Key flow, and Windows Agent service installation, see
+[docs/portal-backend-frontend-agent-runbook.md](docs/portal-backend-frontend-agent-runbook.md).
